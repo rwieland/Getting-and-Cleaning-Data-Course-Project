@@ -69,6 +69,7 @@ The subset of variables described as mean() or std() from the above described va
  - laying
  
  Each of the following is normalized and bounded between [-1, 1]
+ 
  [3] "timeBodyAccelerationMeanMeanX"                              
  [4] "timeBodyAccelerationMeanMeanY"                              
  [5] "timeBodyAccelerationMeanMeanZ"                              
