@@ -74,6 +74,6 @@ summaryLabels = gsub("Deviation", "DeviationMean", summaryLabels)
 names(tidy) = summaryLabels
   
 # Writing tidy dataset to file
-write.table(tidy, file = "tidy.txt", quote = FALSE)
+write.table(tidy, file = "tidy.txt", quote = FALSE, row.names = FALSE)
 
 
